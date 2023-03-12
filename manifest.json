@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CSE291_TOS",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "hello.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
