@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   async function chatGPTRequest(prompt) {
-    const apiKey = "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"; // Replace with your actual API key
+    const apiKey = "YOUR-API-KEY"; // Replace with your actual OpenAI API key
 
     const response = await fetch(
       "https://api.openai.com/v1/engines/davinci-codex/completions",
